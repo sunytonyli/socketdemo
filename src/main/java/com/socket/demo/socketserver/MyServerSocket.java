@@ -36,7 +36,7 @@ public class MyServerSocket {
 			out.flush();
 			in = new ObjectInputStream(connection.getInputStream());
 			
-//			sendMessage("Connection successful");
+			sendMessage("Connection successful");
 			// 4. The two parts communicate via the input and output streams
 			do {
 				try {
@@ -51,14 +51,14 @@ public class MyServerSocket {
 			} while (!message.equals("bye"));
 			
 			//测试读到数据超时
-			try {
+			/*try {
 				Thread.sleep(8000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+			}*/
 			
-			sendMessage("Connection successful");
+			//sendMessage("Connection successful");
 			
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
