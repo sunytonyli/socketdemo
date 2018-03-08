@@ -13,7 +13,7 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 		<org.springframework.retry-version>1.2.2.RELEASE</org.springframework.retry-version>
-		<org.springframework.test-version>3.2.14.RELEASE</org.springframework.test-version>
+		<org.springframework.test-version>4.3.14.RELEASE</org.springframework.test-version>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
